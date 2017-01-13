@@ -19,15 +19,17 @@ def creat_dir(dir_name):
     '''
     Creat a dir by the given dir_name in the user's home directory
     '''
-    home = os.path.expanduser('~')
-    print(home)
-    path = os.path.join(home, dir_name)
-    if not os.path.exists(path):
-        os.makedirs(path)
-    else:
-        print("The directpry does exist!")
-
-
+    try:
+        home = os.path.expanduser('~')
+        print(home)
+        path = os.path.join(home, dir_name)
+        if not os.path.exists(path):
+            os.makedirs(path)
+        else:
+            print("The directpry does exist!")
+    except Exception as e:
+        print(e)
+ 
 def main():
     '''
     Call the main method
