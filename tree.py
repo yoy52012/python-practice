@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-# Script Name   : automate_backup.py
+# Script Name   : tree.py
 # Author        : chao yuan
 # Created       : 12th January 2017
-# Last Modified : 12th January 2017
+# Last Modified : 13th January 2017
 
-# Description   : Show the dirctory in a tree struct
+# Description   : Show the dirctory in a tree struct(使用目录树的形式显示文件夹的结构)
 
 import os
 # import optparse

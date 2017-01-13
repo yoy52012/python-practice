@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 
-# Script Name   : file_rename.py
+# Script Name   : check_network.py
 # Author        : chao yuan
 # Created       : 12th January 2017
 # Last Modified : 13th January 2017
 
+# Description   : Check whether the internet is connecting (检查网络是否连接)
 import urllib.request
 import urllib.error
 try:

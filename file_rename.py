@@ -6,7 +6,7 @@
 # Created       : 10th January 2017
 # Last Modified : 11th January 2017
 
-
+# Description   ：Rename a group of files in a given directory with new extensions 
 import os
 import argparse
 

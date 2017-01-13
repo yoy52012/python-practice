@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# Script Name   : automate_backup.py
+# Script Name   : check_files.py
 # Author        : chao yuan
 # Created       : 11th January 2017
-# Last Modified : 12th January 2017
+# Last Modified : 13th January 2017
 
 # Description   : check the given file  exists and whether we can read or not (检查所给文件是否存在且是否可以打开并读取)
 

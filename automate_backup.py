@@ -3,9 +3,9 @@
 # Script Name   : automate_backup.py
 # Author        : chao yuan
 # Created       : 11th January 2017
-# Last Modified : 12th January 2017
+# Last Modified : 13th January 2017
 
-#Description    ：backup files in the dirctory everyday
+#Description    ：backup files in the dirctory everyday (备份文件到一个以该日日期命名的文件夹中)
 
 import os
 import datetime
