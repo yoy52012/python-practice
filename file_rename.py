@@ -6,7 +6,7 @@
 # Created       : 10th January 2017
 # Last Modified : 11th January 2017
 
-# Description   ：Rename a group of files in a given directory with new extensions 
+# Description   ：Rename a group of files in a given directory with new extensions (将所给文件夹下指定后缀的文件重新命名新的后缀)
 import os
 import argparse
 
@@ -16,7 +16,7 @@ def batch_rename(work_dir, old_extension, new_extension):
     once you pass the current and new extensions
     ( 将指定目录中指定后缀的文件重命名为新的后缀 )
     '''
-    for filename in os.listdir(work_dir):                    # traverse all the files in the givern directory 遍历指定目录下所有的文
+    for filename in os.listdir(work_dir):                    # traverse all the files in the givern directory 遍历指定目录下所有的文件
         file_extension = os.path.splitext(filename)[1]       # get file's current extension
         if file_extension == old_extension:
             new_file = filename.replace(file_extension, new_extension) # replace the old extension with the new extension

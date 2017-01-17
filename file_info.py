@@ -3,9 +3,9 @@
 # Script Name   : file_info.py
 # Author        : chao yuan
 # Created       : 16th January 2017
-# Last Modified : 16th January 2017
+# Last Modified : 17th January 2017
 
-# Description   ：Get the information of given file
+# Description   ：Get the information of given file (获取所给文件的信息，包括文件大小、创建时间、访问时间以及最后修改时间)
 
 import os
 import stat

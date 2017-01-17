@@ -3,9 +3,9 @@
 # Script Name   : dir_size.py
 # Author        : chao yuan
 # Created       : 16th January 2017
-# Last Modified : 16th January 2017
+# Last Modified : 17th January 2017
 
-# Description   ：This will get the total size of a given folder
+# Description   ：This will get the total size of a given folder (获取所给文件夹的总大小)
 
 import os
 import sys
